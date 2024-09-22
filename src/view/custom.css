@@ -1,0 +1,215 @@
+
+html {
+    scroll-behavior: smooth;
+    background-color: white;
+}
+
+
+#Background{
+    background-image: url("../images/location/uniback01.jpg");
+background-size: cover;
+}
+
+#back{
+    background-image: url("../images/location/uniback01.jpg");
+    background-size: cover;
+}
+
+/* Add these styles to your CSS or component styling */
+.video-container {
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%; /* 16:9 aspect ratio */
+}
+
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+#style{
+    filter: grayscale(1) contrast(1.2) opacity(0.4);
+}
+
+@keyframes pop {
+    0% {
+        opacity: 0;
+        transform: scale(0.8);
+    }
+    60% {
+        opacity: 1;
+        transform: scale(1.1);
+    }
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+.animate-pop {
+    animation: pop 0.8s cubic-bezier(0.25, 1, 0.5, 1) forwards;
+}
+
+@keyframes slideFadeIn {
+    0% {
+        transform: translateY(20px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+@keyframes slideFadeInDelay {
+    0% {
+        transform: translateY(20px);
+        opacity: 0;
+    }
+    50% {
+        opacity: 0.5;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.animate-slide-fade-in {
+    animation: slideFadeIn 1s ease-out forwards;
+}
+
+.animate-slide-fade-in-delay {
+    animation: slideFadeInDelay 1.5s ease-out forwards;
+}
+
+.area {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: #00b4db; /* Fallback background color */
+    background: linear-gradient(to right, #0083b0, #00b4db); /* Gradient background */
+    overflow: hidden;
+}
+
+.circles {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: -1;
+}
+
+.circles li {
+    position: absolute;
+    list-style: none;
+    width: 150px;
+    height: 150px;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 50%;
+    animation: float 25s infinite;
+    bottom: -150px;
+}
+
+/* Circle Animations */
+@keyframes float {
+    0% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+    100% {
+        transform: translateY(-1000px);
+        opacity: 0;
+    }
+}
+
+/* Additional styles for random sizes, positions, and speeds */
+.circles li:nth-child(1) {
+    left: 10%;
+    width: 100px;
+    height: 100px;
+    animation-duration: 22s;
+}
+
+.circles li:nth-child(2) {
+    left: 20%;
+    width: 120px;
+    height: 120px;
+    animation-duration: 20s;
+}
+
+.circles li:nth-child(3) {
+    left: 25%;
+    width: 90px;
+    height: 90px;
+    animation-duration: 18s;
+}
+
+.circles li:nth-child(4) {
+    left: 40%;
+    width: 140px;
+    height: 140px;
+    animation-duration: 24s;
+}
+
+.circles li:nth-child(5) {
+    left: 70%;
+    width: 130px;
+    height: 130px;
+    animation-duration: 22s;
+}
+
+.circles li:nth-child(6) {
+    left: 80%;
+    width: 150px;
+    height: 150px;
+    animation-duration: 20s;
+}
+
+.circles li:nth-child(7) {
+    left: 85%;
+    width: 100px;
+    height: 100px;
+    animation-duration: 25s;
+}
+
+.circles li:nth-child(8) {
+    left: 50%;
+    width: 110px;
+    height: 110px;
+    animation-duration: 22s;
+}
+
+.circles li:nth-child(9) {
+    left: 60%;
+    width: 140px;
+    height: 140px;
+    animation-duration: 23s;
+}
+
+.circles li:nth-child(10) {
+    left: 75%;
+    width: 160px;
+    height: 160px;
+    animation-duration: 21s;
+}
+#post{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+
+
+
+
+
