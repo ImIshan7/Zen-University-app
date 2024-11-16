@@ -37,13 +37,13 @@ Welcome to the **Zen University** website repository! This is a frontend-only pr
 ## 📸 Screenshots
 
 ### Home Page
-![Zen University Home Page](src/assets/location/CAMPUS01.png)
+![Zen University Home Page](src/images/location/CAMPUS01.png)
 
 ### Courses Page
-![Courses Page](src/assets/location/CAMPUS02.png)
+![Courses Page](src/images/location/CAMPUS02.png)
 
 ### Contact Page
-![Contact Page](src/assets/location/CAMPUS03.png)
+![Contact Page](src/images/location/CAMPUS03.png)
 
 
 ## 🙌 Contributing
