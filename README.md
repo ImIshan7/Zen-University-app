@@ -49,14 +49,15 @@ Welcome to the **Zen University** website repository! This is a frontend-only pr
 ## 🙌 Contributing
 Contributions are welcome! Here's how you can help:
 
-Fork the repository.
-Create a new branch: git checkout -b feature-name.
-Make your changes and commit: git commit -m 'Add feature'.
-Push your changes: git push origin feature-name.
-Submit a pull request. 🎉
+- Fork the repository.
+- Create a new branch: git checkout -b feature-name.
+- Make your changes and commit: git commit -m 'Add feature'.
+- Push your changes: git push origin feature-name.
+- Submit a pull request. 🎉
 
 ## 📄 License
-This project is licensed under the MIT License. You are free to use, modify, and distribute this project.
+- This project is licensed under the MIT License. 
+- You are free to use, modify, and distribute this project.
 
 ## ⭐ Show Your Support
 If you like this project, please give it a star ⭐ on GitHub! It means a lot. 😊
